@@ -1,0 +1,79 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #2C2C2C;
+    color: #EAEAEA;
+    margin: 0;
+    padding: 0;
+}
+
+.profile {
+    text-align: center;
+    padding: 20px;
+    background-color: #1F1F1F;
+    margin: 20px auto;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid #444;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #FFD700;
+}
+
+h1 {
+    color: #FFD700;
+}
+
+p {
+    color: #CCCCCC;
+}
+
+.hobbies, .contact {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1F1F1F;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid #444;
+}
+
+h2 {
+    text-align: center;
+    color: #FFD700;
+}
+
+ul {
+    list-style-type: square;
+    color: #CCCCCC;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label, form input, form textarea {
+    width: 100%;
+    margin: 5px 0;
+    background-color: #333;
+    color: #FFF;
+    border: 1px solid #555;
+}
+
+form input[type="submit"] {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #FFD700;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #E6B800;
+}
